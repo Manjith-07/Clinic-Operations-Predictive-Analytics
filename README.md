@@ -24,20 +24,26 @@ During the data cleaning and EDA phase, several critical operational insights we
 * **Features Used:** Age, Wait Time, Medical History (Hypertension, Diabetes, Alcoholism, Handicap), Welfare Scholarship Status, and SMS Reminder Status.
 * **Performance:** The model successfully learned the feature importance hierarchy, prioritizing operational metrics (Wait Time) and demographic metrics (Age) over basic medical history when predicting attendance.
 
-## 🛠️ How to Run the Dashboard Locally
+## 🛠️ How to Run the Dashboard
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/Manjith-07/Clinic-Operations-Predictive-Analytics.git
 
-3. Navigate to the directory:
+2. Navigate to the directory:
    ```bash
    cd Clinic-Operations-Predictive-Analytics
 
-2. Install the required dependencies:
+3. Create and Activate a virtual environment:
+   ```bash
+   python -m venv venv
+   .venv\Scripts\activate
+
+4. Install the required dependencies:
    ```bash
    pip install pandas numpy scikit-learn plotly streamlit joblib
 
-2. Run the Streamlit application:
+5. Run the Streamlit application:
    ```bash
    streamlit run app.py
+   
