@@ -491,7 +491,7 @@ with tab_history:
         st.markdown("""
         <div style='text-align:center;padding:3rem;color:#4a4f63;
                     font-family:"DM Mono",monospace;font-size:13px;'>
-            No assessments run yet. Use the sidebar to predict outcomes.
+            No assessments saved yet. Use the "Save Risk Assessment" button on the sidebar to save the predicted outcomes.
         </div>
         """, unsafe_allow_html=True)
     else:
