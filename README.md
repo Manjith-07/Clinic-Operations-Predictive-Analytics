@@ -28,7 +28,7 @@ During the data cleaning and EDA phase, several critical operational insights we
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Clinic-Operations-Predictive-Analytics.git](https://github.com/YOUR_USERNAME/Clinic-Operations-Predictive-Analytics.git)
+   git clone [https://github.com/Manjith-07/Clinic-Operations-Predictive-Analytics.git](https://github.com/Manjith-07/Clinic-Operations-Predictive-Analytics.git)
 
 2. Navigate to the directory:
    ```bash
@@ -36,7 +36,7 @@ During the data cleaning and EDA phase, several critical operational insights we
 
 2. Install the required dependencies:
    ```bash
-   pip install pandas numpy scikit-learn streamlit joblib
+   pip install pandas numpy scikit-learn plotly streamlit joblib
 
 2. Run the Streamlit application:
    ```bash
