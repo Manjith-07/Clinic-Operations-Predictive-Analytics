@@ -27,10 +27,11 @@ During the data cleaning and EDA phase, several critical operational insights we
 ## 🛠️ How to Run the Dashboard Locally
 
 1. Clone this repository:
+   ```markdown
    ```bash
    git clone [https://github.com/Manjith-07/Clinic-Operations-Predictive-Analytics.git](https://github.com/Manjith-07/Clinic-Operations-Predictive-Analytics.git)
 
-2. Navigate to the directory:
+3. Navigate to the directory:
    ```bash
    cd Clinic-Operations-Predictive-Analytics
 
